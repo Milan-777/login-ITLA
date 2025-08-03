@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/itlaedu.otg</title>
+    <link href="style.css" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>LOGO</h1>
+        <nav>
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#DETAILS">DETAILS</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+            <button class="log-btn" onclick="show()">Login</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrraper">
+            <span class="icon"><ion-icon name="close"></ion-icon></span>
+            <div class="form">
+
+
+                <div class="loginform F">
+
+                    <h1>Login</h1>
+
+                    <div class="username L">
+                        <input type="text" required id="a" />
+                        <label for="a">Username</label>
+                        <span><ion-icon class="ico" name="person"></ion-icon></span>
+                    </div>
+
+                    <div class="password L">
+                        <input type="password" required autocomplete="new-password" id="b" />
+                        <label for="b">Password</label>
+                        <span><ion-icon class="ico" name="lock-closed"></ion-icon></span>
+                    </div>
+
+                    <div class="forgetpassword tic">
+                        <label><input type="checkbox">
+                            Remember Me.</label>
+                        <a href="#forgetpass">Forget Password?</a>
+                    </div>
+
+                    <button class="submit-btn">Login</button>
+
+                    <div class="signuplink">
+                        <p>Don't have an account? <a href="#signup">Sign up</a></p>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div class="signupform F">
+
+                    <h1>Sign Up / Register</h1>
+
+                    <div class="gmail L">
+                        <input type="email" required id="c" />
+                        <label for="c">Gmail</label>
+                        <span><ion-icon name="mail-open"></ion-icon></span>
+                    </div>
+
+                    <div class="username L">
+                        <input type="text" required id="d" />
+                        <label for="d">Username</label>
+                        <span><ion-icon class="ico" name="person"></ion-icon></span>
+                    </div>
+
+                    <div class="password L">
+                        <input type="password" required autocomplete="new-password" id="e" />
+                        <label for="e">Password</label>
+                        <span><ion-icon class="ico" name="lock-closed"></ion-icon></span>
+                    </div>
+
+                    <div class="agree tic">
+                        <input type="checkbox" id="p">
+                        <label for="p">I agree to the terms & conditions.</label>
+                    </div>
+
+                    <button class="submit-btn">Sign Up</button>
+
+                    <div class="loginlink">
+                        <p>Already have an account? <a href="#signup">Login</a></p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
